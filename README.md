@@ -1,6 +1,6 @@
 Title: ToDoList-CLI
 
-This is a simple todolist cli program
+This is a simple todolist cli program made using GO.
 
 Running the code: run go todo.go
 
