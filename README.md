@@ -2,11 +2,11 @@ Title: ToDoList-CLI
 
 This is a simple todolist cli program made using GO.
 
-Running the code: run go todo.go
+Running the code: go run todo.go
 
-It doesn't support any save options so todos only remain for one session
+It doesn't support any save options so todos only remain for one session.
 
-This is my first time creating a Github repository so don't expect much
+This is a learning project.
 
-During execution use 'help' to get syntax for all available command to perform actions
+During execution use 'help' to get syntax for all available command to perform actions.
 
