@@ -23,7 +23,7 @@ func main() {
 		cid = 0
 	)
 
-	fmt.Println("use 'help' if braindead")
+	fmt.Println("use 'help' for commands listing")
 	
 	for true {
 
@@ -70,8 +70,8 @@ func main() {
 			fmt.Println("show :- to display todolist")
 			fmt.Println("rem-i <id> :- to remove todo by id")
 			fmt.Println("rem-n <name> :- to remove todo by name")
-			fmt.Println("cngst-i <id> :- to change state(✅, ⬜) of todo by id")
-			fmt.Println("cngst-n <name> :- to change state(✅, ⬜) of todo by name") 
+			fmt.Println("cngst-i <id> :- to change state of todo by id")
+			fmt.Println("cngst-n <name> :- to change state of todo by name") 
 			fmt.Println("exit :- to exit")
 		} else {
 			fmt.Println("Invalid command")
@@ -98,7 +98,7 @@ func removeTodo(idt int) {
 func displayTodo() {
 
 	for _, value := range todoList {
-		fmt.Println(value.id, ". ", value.name, "\t", ternary(value.state, "✅", "⬜"))
+		fmt.Println(value.id, ". ", value.name, "\t", ternary(value.state, "completed", "not completed"))
 	}
 
 }
