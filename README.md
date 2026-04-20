@@ -1,4 +1,4 @@
-Title: ToDoList-CLI
+## Title: ToDoList-CLI
 
 This is a simple todolist cli program made using GO.
 
